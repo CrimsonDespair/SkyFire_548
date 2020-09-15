@@ -103,3 +103,11 @@ notifications:
       - "irc.rizon.net#project_skyfire"
     on_success: always
     on_failure: always
+
+deploy:
+  provider: releases
+  api_key: "71203995dc71791dced73da610245d6070b747a4"
+  file: "FILE TO UPLOAD"
+  skip_cleanup: true
+  on:
+    tags: true
