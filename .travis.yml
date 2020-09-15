@@ -106,8 +106,8 @@ notifications:
 
 deploy:
   provider: releases
-  api_key: "71203995dc71791dced73da610245d6070b747a4"
-  file: "FILE TO UPLOAD"
-  skip_cleanup: true
+  token: 7edc809fee76dbe4c99b131607f1f5fd40a286c2
+  file: <file>
+  edge: true # opt in to dpl v2
   on:
     tags: true
